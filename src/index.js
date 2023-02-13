@@ -1,13 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import './index.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import App from './App';
-import SecondCounterContainer from './second-counter-container';
 import reportWebVitals from './reportWebVitals';
+import MovieList from './MovieList';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <SecondCounterContainer />
+  <MovieList />
 );
 
 
