@@ -3,7 +3,7 @@ import spiderman from './spiderman.jpg';
 import avatar from './avatar.jpg'
 import pib from './PIB.jpg'
 import Review from './Review';
-import Counter from './Stars'
+import Stars from './Stars'
 
 export default class MovieList extends React.Component {
     render () {
@@ -38,7 +38,7 @@ export default class MovieList extends React.Component {
                         <p>{movie.synopsis}</p>
                         <p>How many stars out of 5?</p>
                         <Review />
-                        <Counter />
+                        <Stars />
                     </div>
                 ))}
             </div>

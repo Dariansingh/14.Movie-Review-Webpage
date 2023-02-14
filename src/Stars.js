@@ -2,7 +2,7 @@ import React from 'react';
 import star from './star.jpg';
 
 /* image that adds another star image each time it's clicked */
-export default class Counter extends React.Component {
+export default class Stars extends React.Component {
     constructor(props) {
         super(props);
         this.state = { count: 0 };
